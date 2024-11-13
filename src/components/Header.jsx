@@ -17,7 +17,7 @@ const Header = () => {
     return (
         <nav className="p-4 flex justify-between items-center">
             <Link to="/">
-                <img src="/src/assets/logo.png" alt="logo" className="h-16" />
+                <img src="/logo.png" alt="logo" className="h-16" />
             </Link>
             <div>
                 {!user ? (

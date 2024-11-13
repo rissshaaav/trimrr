@@ -1,11 +1,10 @@
-import React from 'react'
 import Header from '@/components/Header'
 import { Outlet } from 'react-router-dom'
 
 const AppLayout = () => {
   return (
     <div>
-      <main className='min-h-screen container'>
+      <main className='px-10 min-h-screen container'>
         <Header/>
         <Outlet/>
       </main>
